@@ -27,9 +27,7 @@
       "error",
       "always"
     ],
-    "rules": {
-      "react/prefer-stateless-function": "off"
-    },
-    "extends": "airbnb"
-  }
+    "react/prefer-stateless-function": "off",
+  },
+  "extends": "airbnb"
 }
