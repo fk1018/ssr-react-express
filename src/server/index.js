@@ -20,6 +20,7 @@ app.get('*', (req,res,next)=>{
     <html>
       <head>
         <title>SSR React Application</title>
+        <script src='/bundle.js' defer></script>
       </head>
 
       <body>
