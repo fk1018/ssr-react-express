@@ -11,6 +11,7 @@
   ],
   "parser": "babel-eslint",
   "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "indent": [
       "error",
       2
@@ -27,7 +28,7 @@
       "error",
       "always"
     ],
-    "react/prefer-stateless-function": "off",
+    "react/prefer-stateless-function": "off"
   },
   "extends": "airbnb"
 }
