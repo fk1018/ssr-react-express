@@ -14,3 +14,5 @@ const routes =[
     fetchInitialData: (path = '') => fetchPopularRepos(path.split('/').pop()),
   },
 ]
+
+export default routes;
