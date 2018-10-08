@@ -5,7 +5,6 @@ import React from 'react';
 import { matchPath } from 'react-router-dom';
 import serialize from 'serialize-javascript';
 import App from '../shared/App';
-import fetchPopularRepos from '../shared/api';
 import routes from '../shared/routes';
 
 
